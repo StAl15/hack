@@ -13,6 +13,7 @@
     height: 100vh;
     background-color: #F0F4F7;
     overflow: auto;
+    display: flex;
 }
 
 .title_signin {
@@ -26,3 +27,11 @@ a {
 
 }
 
+.login_right_side {
+    margin-left: auto;
+
+    position: absolute;
+    top: 15%;
+    margin-left: 40%;
+
+}

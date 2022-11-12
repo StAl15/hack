@@ -1,6 +1,7 @@
 import React from "react";
 import './Login.css';
 import { TextField, Button } from "@mui/material"
+import ico_man from "../media/129-PhotoRoom 1.svg"
 // import ico_sign from "../media/ico_sign.svg"
 
 const Login = () => {
@@ -24,7 +25,9 @@ const Login = () => {
             </div>
 
             <div className="login_right_side">
-
+                <img src={ico_man} style={{width: 600, height:600}}>
+                
+                </img>
             </div>
 
         </div>

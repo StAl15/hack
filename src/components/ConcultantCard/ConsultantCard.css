@@ -1,0 +1,78 @@
+.content_card {
+    background-color: white;
+    width: max-content;
+    height: auto;
+    display: grid;
+    justify-content: space-between;
+    background-color: white;
+
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.round_rating_ {
+    font-family: 'Inter-Bold';
+    display: flex;
+    align-items: center;
+    
+}
+
+.round_rating_ h1 {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.round_rating_ h3 {
+    font-family: 'Inter-Regular';
+    font-size: 15px;
+    color: #5B667C;
+}
+
+.quantity_clients {
+    display: flex;
+    width: auto;
+    font-family: 'Inter-Regular';
+    color: #5B667C;
+}
+
+.quantity_clients h3.data {
+    margin-left: auto;
+    color: black;
+}
+
+.quantity_clients h3.label {
+    font-size: 15px;
+}
+
+.rating {
+    display: flex;
+    width: auto;
+    font-family: 'Inter-Regular';
+    color: #5B667C;
+}
+
+.rating h3.label {
+    font-size: 15px;
+}
+
+.rating h3.data {
+    margin-left: auto;
+    color: black;
+}
+
+.earning {
+    font-family: 'Inter-Regular';
+    color: #5B667C;
+    display: flex;
+    width: auto;
+}
+
+.earning h3.label {
+    font-size: 15px;
+}
+
+.earning h3.data {
+    margin-left: auto;
+    color: black;
+}
