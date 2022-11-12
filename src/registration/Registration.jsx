@@ -29,7 +29,7 @@ const Registration = () => {
                     label="Я консультант"
                 />
 
-                <Button style={{ marginTop: 15, backgroundColor: "#39B6EC", }} variant="contained" disableElevation>
+                <Button style={{textTransform: 'none', marginTop: 15, backgroundColor: "#39B6EC", }} variant="contained" disableElevation>
                     Создать
                 </Button>
                 <p>Есть аккаунт? Войти</p>
