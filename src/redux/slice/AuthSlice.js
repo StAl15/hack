@@ -22,7 +22,7 @@ const initialState = {
        state.user = login
        state.token = jwtToken
        state.role = role
-       state.id = userId
+       state.id = userId 
       },
       logOut: (state) => {
         state.user = null

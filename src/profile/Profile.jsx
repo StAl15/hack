@@ -39,7 +39,7 @@ export default function Profile() {
                 </div>
             </div>
 
-            <Button size="large" style={{ textTransform: 'none', marginLeft: 50, marginTop: 25, backgroundColor: "#39B6EC" }} variant="contained" disableElevation>
+            <Button size="large"  style={{ textTransform: 'none', marginLeft: 50, marginTop: 25, backgroundColor: "#39B6EC" }} variant="contained" disableElevation>
                 Выйти
             </Button>
 

@@ -26,7 +26,7 @@ const Login = () => {
 
             <div className="login_right_side">
                 <img src={ico_man} style={{width: 600, height:600}}>
-                
+                 
                 </img>
             </div>
 
