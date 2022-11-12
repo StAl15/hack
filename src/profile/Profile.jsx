@@ -6,7 +6,7 @@ export default function Profile() {
     return (
         <div className="profile_content">
             <div className="main_info">
-                <img src="https://fuzeservers.ru/wp-content/uploads/7/4/6/74667c5e05004bdf83f789f890554694.jpeg" alt="image">
+                <img src="https://images.squarespace-cdn.com/content/v1/52e90534e4b07f1315fbe6f4/1392046490216-8RCZF0ZQD1RH00P7QVRN/ke17ZwdGBToddI8pDm48kAf-OpKpNsh_OjjU8JOdDKBZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzAFzFJoCInLPKyj9AG8yKe7-Q2aFvP177fkO9TY_-rz5WoqqTEZpmj4yDEOdwKV68/andy-horner-portrait-circle-blog.jpg" alt="image">
                 </img>
                 <div>
                     <h4>Консультант</h4>
@@ -17,25 +17,29 @@ export default function Profile() {
             <div className="additive_info">
                 <div className="right_side">
                     <div className="quantity_clients">
-                        <h3>Количество клиентов</h3>
-                        <h3>52</h3>
+                        <h3 className="label">Количество клиентов</h3>
+                        <h3 className="data">52</h3>
                     </div>
                     <div className="rating">
-                        <h3>Среднаяя оценка</h3>
-                        <h3>4.58</h3>
+                        <h3 className="label">Средняя оценка</h3>
+                        <h3 className="data">4.58</h3>
                     </div>
                     <div className="earning">
-                        <h3>Средняя доходность</h3>
-                        <h3>+20%</h3>
+                        <h3 className="label">Средняя доходность</h3>
+                        <h3 className="data">+20%</h3>
                     </div>
 
                 </div>
                 <div className="left_side">
+                    <div className="round_rating">
+                        <h1>A +</h1>
+                        <h4>Индекс доверия</h4>
+                    </div>
 
                 </div>
             </div>
 
-            <Button style={{ marginTop: 15, backgroundColor: "#EEEFF2", color: "black" }} variant="contained" disableElevation>
+            <Button size="large" style={{ textTransform: 'none', marginLeft: 50, marginTop: 25, backgroundColor: "#39B6EC" }} variant="contained" disableElevation>
                 Выйти
             </Button>
 

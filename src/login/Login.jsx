@@ -16,7 +16,7 @@ const Login = () => {
 
                 <a>Забыли пароль?</a>
 
-                <Button style={{ marginTop: 15, backgroundColor: "#39B6EC", }} variant="contained" disableElevation>
+                <Button style={{textTransform: 'none', marginTop: 15, backgroundColor: "#39B6EC", }} variant="contained" disableElevation>
                     Войти
                 </Button>
                 <p>Нет аккаунта? Создать бесплатно</p>
