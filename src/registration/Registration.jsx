@@ -1,9 +1,16 @@
-import React from "react";
+import { React, useState } from "react";
 import './Registration.css';
-import { TextField, Button } from "@mui/material"
+import { TextField, Button, Checkbox, FormControlLabel } from "@mui/material"
+
 // import ico_sign from "../media/ico_sign.svg"
 
 const Registration = () => {
+    const [checked, setChange] = useState(true)
+    const handleChange = (event) => {
+        setChange(event.target.checked);
+    };
+
+
     return (
         <div className="registration_content">
             <div className="registration_left_side">
@@ -15,7 +22,12 @@ const Registration = () => {
                 <TextField fullWidth id="password_input" label="Пароль" type="password" variant="outlined" style={{ marginTop: 15, }} />
                 <TextField fullWidth id="password_input" label="Повторите пароль" type="password" variant="outlined" style={{ marginTop: 15, }} />
 
-                <a>Забыли пароль?</a>
+                <FormControlLabel style={{fontFamily: 'Inter-Regular'}}
+                    control={
+                        <Checkbox checked={checked} onChange={handleChange} name="is_consul" />
+                    }
+                    label="Я консультант"
+                />
 
                 <Button style={{ marginTop: 15, backgroundColor: "#39B6EC", }} variant="contained" disableElevation>
                     Создать

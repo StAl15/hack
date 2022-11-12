@@ -1,0 +1,58 @@
+.profile_content {
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: #F0F4F7;
+}
+
+.main_info {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    width: auto;
+}
+
+.main_info img {
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    margin-right: 40px;
+}
+
+.main_info div h4 {
+    font-family: 'Inter-Light';
+    font-size: 20px;
+    margin-bottom: -15px;
+    color: #39B6EC;
+}
+
+.main_info div h1 {
+    font-family: 'Inter-Bold';
+    font-size: 40px;
+
+}
+
+.additive_info {
+    margin-left: 50px;
+    margin-top: 30px;
+    width: auto;
+    height: auto;
+}
+
+.additive_info.right_side {
+    display: flex;
+    font-family: 'Inter-Regular';
+    width: 300px;
+    height: 600px;
+
+}
+
+.quantity_clients {
+    display: flex;
+}
+
+.rating {
+    
+}
+
+.earning {}

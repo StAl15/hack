@@ -13,16 +13,11 @@
     width: 100vw;
     height: 100vh;
     background-color: #F0F4F7;
+    overflow: auto;
 }
 
 .title_signup {
     font-family: 'Inter-Bold';
     font-size: 60px;
-}
-a {
-    color: #39B6EC;
-    font-family: 'Inter-Regular';
-    margin-top: 15px;
-
 }
 
